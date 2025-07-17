@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/FuturaCoach.png" alt="FuturaCoach Logo" width="320" />
+  <img src="public/FuturaCoach.png" alt="FuturaCoach Logo" width="700" />
   <h1>FuturaCoach</h1>
   <p>
     <b>Your AI-Powered Career Coach</b><br>
