@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src="public/FuturaCoach.png" alt="FuturaCoach Logo" width="320" />
+  <h1>FuturaCoach</h1>
+  <p>
+    <b>Your AI-Powered Career Coach</b><br>
+    Advance your career with personalized guidance, interview prep, and AI-powered tools for job success.
+  </p>
+  <a href="https://ai-career-coach-navy.vercel.app/">Live Demo</a> •
+  <a href="https://github.com/Hmtgit7/ai-career-coach">Source Code</a> •
+  <a href="https://hemant-gehlod.netlify.app/">Portfolio</a>
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+## 🚀 About the Project
+
+**FuturaCoach** is a full-stack AI-powered career coaching platform built with Next.js, React, Tailwind CSS, Prisma, NeonDB, Clerk authentication, Inngest, and Gemini AI.  
+It helps users accelerate their career growth with smart resume building, AI-generated cover letters, personalized interview prep, and real-time industry insights.
+
+---
+
+## ✨ Features
+
+- **AI-Powered Career Guidance:** Get personalized career advice and insights powered by advanced AI.
+- **Smart Resume Builder:** Instantly generate ATS-optimized resumes tailored to your industry and experience.
+- **Cover Letter Generator:** Create compelling, job-specific cover letters in seconds.
+- **Interview Preparation:** Practice with role-specific questions and get instant feedback to improve your performance.
+- **Industry Insights:** Stay ahead with real-time trends, salary data, and market analysis.
+- **Performance Analytics:** Track your progress and identify areas for improvement.
+- **Secure Authentication:** User accounts and data are protected with Clerk.
+- **Modern UI:** Built with Shadcn UI and Tailwind CSS for a beautiful, responsive experience.
+
+---
+
+## 🖼️ App Preview
+
+![FuturaCoach Preview](public/FuturaCoach.png)
+
+> **Live Demo:** [ai-career-coach-navy.vercel.app](https://ai-career-coach-navy.vercel.app/)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React 19, Next.js 15, Tailwind CSS, Shadcn UI
+- **Backend:** Next.js API Routes, Prisma ORM, NeonDB
+- **AI:** Gemini AI (Google Generative AI)
+- **Authentication:** Clerk
+- **Background Jobs:** Inngest
+- **Deployment:** Vercel
+
+---
+
+## 📚 How It Works
+
+1. **Professional Onboarding:** Share your industry and expertise for personalized guidance.
+2. **Craft Your Documents:** Create ATS-optimized resumes and compelling cover letters.
+3. **Prepare for Interviews:** Practice with AI-powered mock interviews tailored to your role.
+4. **Track Your Progress:** Monitor improvements with detailed performance analytics.
+
+---
+
+## 📝 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Hmtgit7/ai-career-coach.git
+cd ai-career-coach
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Set up environment variables
+
+Create a `.env` file in the root directory and add the following:
+
+```env
+DATABASE_URL=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+GEMINI_API_KEY=
+```
+
+### 4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Screenshots
 
-## Learn More
+| Dashboard Preview | Resume Builder | Interview Prep |
+|-------------------|---------------|---------------|
+| ![Dashboard](public/banner.jpeg) | ![Resume](public/banner2.jpeg) | ![Interview](public/banner3.jpeg) |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🙋‍♂️ About the Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Hemant Gehlod**  
+🧑🏼‍💻 Full-Stack Developer | MERN & Java | Cloud & DevOps Enthusiast  
+[Portfolio](https://hemant-gehlod.netlify.app/) • [GitHub](https://github.com/Hmtgit7)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⭐️ Why FuturaCoach?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Built from scratch with modern full-stack technologies.
+- Real AI integration for career tools (not just a template!).
+- Clean, scalable codebase and best practices.
+- Beautiful, responsive UI.
+- Perfect for your resume, portfolio, or as a learning resource.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+  <b>Made with ❤️ by Hemant Gehlod</b>
+</div>
